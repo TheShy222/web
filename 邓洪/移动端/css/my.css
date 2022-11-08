@@ -1,0 +1,201 @@
+#header{
+    width: 7.5rem;
+    height: 1.34rem;
+    align-items: center;
+    display: flex;
+}
+#header h2{
+    width: 2.72rem;
+    color: #000;
+    font-size: 0.38rem;
+    margin-left: 0.3rem;
+}
+#header h3{
+    width: 3.72rem;
+    color: #000;
+    font-size: 0.36rem;
+}
+#header img{
+    width: 0.48rem;
+    height: 0.48rem;
+}
+#self{
+    width: 7.5rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+#self .left{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 0.3rem;
+}
+#self .middle{
+    width: 4.2rem;
+    height: 1.2rem;
+    margin-top: 0.18rem;
+}
+#self .middle span{
+    font-size: 0.42rem;
+    color: #000;
+    margin-left: 0.28rem;
+}
+#self .middle img{
+    width: 0.38rem;
+    height: 0.3rem;
+    margin-left: 0.12rem;
+}
+#self .middle p{
+    font-size: 0.24rem;
+    color: #999;
+    margin-left: 0.28rem;
+}
+#self .right{
+    width: 1.4rem;
+	height: 0.54rem;
+	background-image: linear-gradient(82deg, 
+		#fdb1ac 0%, 
+		#fc879a 50%, 
+		#fa638a 100%);
+	border-radius: 0.27rem;
+    text-align: center;
+    line-height: 0.54rem;
+    color: #fff;
+    font-size: 0.26rem;
+}
+#use{
+    width: 7.5rem;
+    height: 2.48rem;
+    display: flex;
+    justify-content: space-around;
+}
+#use div{
+    height: 1.48rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#use div a{
+	font-size: 0.28rem;
+	color: #000000;
+    display: block;
+    margin-top: 0.2rem;
+}
+#use div img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.4rem;
+}
+#history{
+    width: 7.5rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+#history .top{
+    width: 7.5rem;
+    height: 0.8rem;
+    display: flex;
+}
+#history .top img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.3rem;
+    margin-right: 0.34rem;
+}
+#history .top h2{
+    width: 6.32rem;
+    font-size: 0.28rem;
+    color: #000;
+}
+#history .top svg{
+    font-size: 0.24rem;
+}
+#history .middle{
+    width: 7.5rem;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-between;
+}
+#history .middle img{
+    width: 2.22rem;
+    height: 1.46rem;
+    margin-left: 0.3rem;
+}
+#history .middle a{
+    color: #000;
+    font-size: 0.26rem;
+    display: block;
+    margin-top: 0.22rem;
+    margin-left: 0.3rem;
+}
+#history .bottom{
+    width: 7.5rem;
+    height: 5rem;
+    margin-top: 1.2rem;
+}
+#history .bottom div{
+    width: 7.5rem;
+    height: 1.1rem;
+    display: flex;
+}
+#history .bottom img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 0.3rem;
+    margin-right: 0.4rem;
+}
+#history .bottom a{
+    width: 3.58rem;
+    font-size: 0.28rem;
+    color: #000;
+}
+#history .bottom div:nth-child(2) a{
+    width: 5.8rem;
+}
+#history .bottom div:nth-child(3) a{
+    width: 5.8rem;
+}
+#history .bottom div:nth-child(4) a{
+    width: 5.8rem;
+}
+#history .bottom div:nth-child(6) a{
+    width: 5.8rem;
+}
+#history .bottom span{
+    font-size: 0.24rem;
+    color: #999;
+    margin-right: 0.15rem;
+}
+#history .bottom svg{
+    font-size: 0.24rem;
+}
+#footerNav{
+    width: 7.5rem;
+    height: 1.46rem;
+    border-top: 0.01rem solid #999;
+    display: flex;
+    justify-content: space-around;
+  }
+  #footerNav div{
+    display: flex;
+    flex-direction: column;
+    color: #999;
+  }
+  #footerNav div:last-child a{
+    color: #fb7296;
+  }
+  #footerNav div:last-child svg{
+    color: #fb7296;
+  }
+  #footerNav svg{
+    margin-top: 0.2rem;
+    font-size: 0.4rem;
+  }
+  #footerNav a{
+    display: block;
+    color: #999;
+    font-size: 0.22rem;
+    margin-top: 0.15rem;
+  }

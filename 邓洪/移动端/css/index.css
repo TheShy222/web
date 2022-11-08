@@ -1,0 +1,260 @@
+/* 头部 */
+#header{
+    width: 7.5rem;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+#header div{
+    width: 1.65rem;
+    height: 0.64rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .hot{
+    width: 5.15rem;
+    height: 0.64rem;
+	font-size: 0.38rem;
+	color: #000000;
+}
+#header div a{
+	font-size: 0.38rem;
+	color: #fd2852;
+}
+#header div img{
+    width: 0.36rem;
+    height: 0.04rem;
+    display: block;
+}
+#header svg{
+    font-size: 0.4rem;
+}
+/* 轮播 */
+#banner{
+    width: 7.5rem;
+    height: 4.11rem;
+}
+#banner img{
+    width: 7.5rem;
+    height: 4.11rem;
+}
+/* 服务 */
+#serv{
+    width: 7.5rem;
+    height: 2.24rem;
+    display: flex;
+    justify-content: space-around;
+}
+#serv div{
+    width: 1.08rem;
+    height: 2.24rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#serv div img{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+}
+#serv div a{
+	font-size: 0.26rem;
+    display: block;
+	color: #000000;
+    margin-top: 0.2rem;
+}
+#niceLife{
+    width: 7.5rem;
+    height: 3.62rem;
+    display: flex;
+    flex-direction: column;
+}
+#niceLife .top{
+    width: 7.5rem;
+    height: 0.66rem;
+    display: flex;
+}
+#niceLife .top h2{
+    width: 5.52rem;
+    height: 0.66rem;
+    font-size: 0.36rem;
+    margin-left: 0.3rem;
+	color: #000000;
+}
+#niceLife .top a{
+	font-size: 0.28rem;
+	color: #999999;
+}
+#niceLife .top svg{
+    font-size: 0.2rem;
+    color: #999;
+}
+#niceLife .bottom img{
+    width: 3.38rem;
+    height: 2.06rem;
+}
+#niceLife .bottom a{
+	font-size: 0.3rem;
+	color: #000000;
+    display: block;
+    margin-top: 0.2rem;
+}
+#niceLife .bottom{
+    margin-left: 0.3rem;
+    display: flex;
+}
+#niceLife .bottom p{
+	font-size: 0.24rem;
+    margin-top: 0.12rem;
+	color: #999999;
+}
+#niceLife .bottom div:first-child{
+    margin-right: 0.18rem;
+}
+#ppLife{
+    width: 7.5rem;
+    height: 3.62rem;
+    display: flex;
+    margin-top: 0.5rem;
+    flex-direction: column;
+}
+#ppLife .top{
+    width: 7.5rem;
+    height: 0.66rem;
+    display: flex;
+}
+#ppLife .top h2{
+    width: 5.52rem;
+    height: 0.66rem;
+    font-size: 0.36rem;
+    margin-left: 0.3rem;
+	color: #000000;
+}
+#ppLife .top a{
+	font-size: 0.28rem;
+	color: #999999;
+}
+#ppLife .top svg{
+    font-size: 0.2rem;
+    color: #999;
+}
+#ppLife .bottom img{
+    width: 3.38rem;
+    height: 2.06rem;
+}
+#ppLife .bottom a{
+	font-size: 0.3rem;
+	color: #000000;
+    display: block;
+    margin-top: 0.2rem;
+}
+#ppLife .bottom{
+    margin-left: 0.3rem;
+    display: flex;
+}
+#ppLife .bottom p{
+	font-size: 0.24rem;
+    margin-top: 0.12rem;
+	color: #999999;
+}
+#ppLife .bottom div:first-child{
+    margin-right: 0.18rem;
+}
+#tvLife{
+    width: 7.5rem;
+    height: 9.16rem;
+    display: flex;
+    flex-direction: column;
+}
+#tvLife .top{
+    width: 7.5rem;
+    height: 1.1rem;
+    display: flex;
+    margin-left: 0.3rem;
+    align-items: center;
+}
+#tvLife .top h2{
+    width: 5.52rem;
+    height: 1.1rem;
+    font-size: 0.36rem;
+	color: #000000;
+    display: flex;
+    align-items: center;
+}
+#tvLife .top a{
+	font-size: 0.28rem;
+	color: #999999;
+}
+#tvLife .top svg{
+    font-size: 0.2rem;
+    color: #999;
+}
+#tvLife .bottom{
+    margin-bottom: 0.3rem;
+    display: flex;
+}
+#tvLife .bottom .left{
+    width: 2.7rem;
+    height: 1.72rem;
+}
+#tvLife .bottom .left img{
+    width: 2.7rem;
+    height: 1.72rem;
+}
+#tvLife .bottom .right{
+    margin-left: 0.44rem;
+}
+#tvLife .bottom .right div{
+    width: 3.8rem;
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.15rem;
+}
+#tvLife .bottom .right a{
+    width: 3.31rem;
+	font-size: 0.28rem;
+	color: #000000;
+}
+#tvLife .bottom .right svg{
+    font-size: 0.25rem;
+}
+#tvLife .bottom .right p{
+    font-size: 0.22rem;
+    color: #999;
+    margin-bottom: 0.36rem;
+}
+#tvLife .bottom .right p:last-child{
+    margin-bottom: 0rem;
+}
+#footerNav{
+    width: 7.5rem;
+    height: 1.46rem;
+    border-top: 0.01rem solid #999;
+    display: flex;
+    justify-content: space-around;
+  }
+  #footerNav div{
+    display: flex;
+    flex-direction: column;
+    color: #999;
+  }
+  #footerNav div:nth-child(3) a{
+    color: #fb7296;
+  }
+  #footerNav div:nth-child(3) svg{
+    color: #fb7296;
+  }
+  #footerNav svg{
+    margin-top: 0.2rem;
+    font-size: 0.4rem;
+  }
+  #footerNav a{
+    display: block;
+    color: #999;
+    font-size: 0.22rem;
+    margin-top: 0.15rem;
+  }

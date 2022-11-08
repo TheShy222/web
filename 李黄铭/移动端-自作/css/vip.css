@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    height: 138px;
+    padding: 0 30px;
+    display: flex;
+}
+#header span:nth-child(1){
+    width: 270px;
+}
+#header span:nth-child(2){
+    width: 370px;
+}
+#header i{
+    width: 44px;
+    font-size: 40px;
+    line-height: 138px;
+}
+#header span{
+    font-size: 34px;
+    line-height: 138px;
+}
+
+#main{
+    flex-grow: 1;
+    background-color: pink;
+    overflow: auto;
+    padding: 0 30px;
+}
+.name{
+    height: 125px;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    height: 104px;
+    background-color: grey;
+    padding: 0 30px;
+}

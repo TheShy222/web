@@ -1,0 +1,444 @@
+/* 头部 */
+body{
+    min-width: 1182px;
+}
+#header{
+    height: 50px;
+    background-color: #f1f0f5;
+}
+#header .container{
+    width: 1182px;
+    height: 50px;
+    margin: auto;
+}
+#header .container a{
+    line-height: 50px;
+    font-size: 12px;
+    color: #a0a0a0;
+}
+#header .container a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+#header .container a:last-child{
+    float: right;
+}
+#header .container a .first{
+    margin-right: 18px;
+}
+/* 导航 */
+#nav .container{
+    height: 140px;
+    width: 1182px;
+    margin: auto;
+    overflow: hidden;
+}
+#nav .container .logo{
+    width: 144px;
+    height: 48px;
+    margin-top: 45px;
+    float: left;
+}
+#nav .container .logo img{
+    width: 144px;
+    height: 48px;
+    
+}
+#nav .container .title{
+    width: 638px;
+    height: 28px;
+    float: left;
+    margin-left: 169px;
+    margin-top: 59px;
+}
+#nav .container .title ul li{
+    float: left;
+    font-size: 15px;
+    margin-left: 40px;
+    height: 28px;
+    
+}
+#nav .container .title ul .first{
+    margin-left: 0px;
+}
+#nav .container .title ul .third{
+    border-bottom: 2px solid #4585ff;
+}
+#nav .container .title ul li:hover{
+    border-bottom: 2px solid #4585ff;
+}
+#nav .container .login{
+    margin-top: 25px;
+    float: right;
+    margin-right: 3px;
+}
+#nav .container .login div{
+    width: 43px;
+    height: 22px;
+    float: left;
+    border-right: 1px solid #dddddd;
+    text-align: center;
+}
+#nav .container .login .last{
+    border-left: 1px solid #dddddd;
+    border-right: 0px;
+    
+}
+#nav .container .login a{
+    font-size: 14px;
+    color: #808080;
+
+    line-height: 22px;
+}
+/* 轮播图 */
+#banner{
+    border-top: 1px solid #4c4c4c;
+    height: 530px;
+    background: url(../images/banner1.jpg)no-repeat;
+    font-size: 100% 100%;
+    background-position: center;
+}
+/* 产品展示 */
+#show{
+    height: 1676px;
+    background-color: #eceaeb;
+    overflow: hidden;
+}
+#show .container{
+    height: 1528px;
+    width: 1182px;
+    margin: auto;
+    margin-top: 62px;
+
+}
+#show .container .top{
+    height: 792px;
+    width: 1182px;
+
+  
+}
+#show .container  img{
+    height: 422px;
+   width: 1182px;
+}
+#show .container  h6{
+    font-size: 34px;
+    line-height: 34px;
+    margin-top: 30px;
+     text-align: center;
+     margin-bottom: 32px;
+}
+#show .container  p{
+    font-size: 24px;
+    margin-left: 26px;
+    line-height: 42px;
+    color: #525051;
+}
+#show .container  button{
+    width: 323px;
+    height: 71px;
+    text-align: center;
+    margin-left: 414px;
+    margin-top: 75px;
+    border-radius: 6px;
+    border: 1px solid #4586fe;
+    color:#4586fe ;
+}
+#show .container .bottom{
+    height: 694px;
+    width: 1182px;
+    margin-top: 12px;
+}
+#show .container .bottom button{
+    width: 323px;
+    height: 71px;
+    text-align: center;
+    margin-left: 414px;
+    margin-top: 48px;
+    border-radius: 6px;
+    border: 1px solid #4586fe;
+    color:#c7d6ff ;
+    background-color: #4586fe;
+}
+/* 定制师 */
+#Customizer{
+    height: 1634px;
+    background-color: #eceaeb;
+
+}
+.container{
+    width: 1182px;
+    height: 1536px;
+    margin: auto;
+}
+#Customizer a{
+    width: 381px;
+    height: 478px;
+    float: left;
+    margin-top: 51px;
+    margin-left: 19px;
+}
+#Customizer a:nth-child(1){
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#Customizer a:nth-child(4){
+    margin-left: 0px;
+}
+#Customizer a:nth-child(7){
+    margin-left: 0px;
+}
+#Customizer a:nth-child(2){
+    margin-top: 0px;
+}
+#Customizer a:nth-child(3){
+    margin-top: 0px;
+}
+/* 品质 */
+#quality{
+    height: 200px;
+
+    overflow: hidden;
+}
+#quality .content{
+    width: 988px;
+    height: 120px;
+    margin: auto;
+
+    margin-top: 54px;
+}
+#quality .content div{
+    width: 111px;
+    height: 82px;
+    background-color: green;
+    float: left;
+    margin-left: 199px;
+    text-align: center;
+}
+#quality .content div img{
+    margin-bottom: 23px;
+}
+
+#quality .content div:nth-child(1){
+    margin-left: 0px;
+    width: 97px;
+}
+#quality .content div:nth-child(3){
+    width: 92px;
+}
+#quality .content div:nth-child(4){
+    width: 75px;
+}
+#quality .content div a{
+  
+    color: #333333;
+}
+#quality .content div:nth-child(1) img{
+   width: 97px;
+    height: 82px;
+}
+#quality .content div:nth-child(2) img{
+    width: 111px;
+    height: 82px;
+}
+#quality .content div:nth-child(3) img{
+    width: 92px;
+    height: 82px;
+}
+#quality .content div:nth-child(4){
+    width: 75px;
+    height: 80px;
+}
+/* 关于我们 */
+#aboutUs{
+    height: 335px;
+    background-color: #333333;
+    overflow: hidden;
+}
+#aboutUs .content{
+    width: 894px;
+    height: 160px;
+    margin: auto;
+    margin-top: 90px;
+}
+#aboutUs .content .logo2{
+    width: 144px;
+    height: 49px;
+    float: left;
+}
+#aboutUs .content .logo2 img{
+    width: 144px;
+    height: 46px;
+}
+#aboutUs .content  .me{
+    float: left;
+    width: 73px;
+    height: 89px;
+    margin-left: 107px;
+}
+#aboutUs .content  .me a{
+  display: block;
+    color: #ffffff;
+    line-height: 16px;
+}
+#aboutUs .content  .me  ul a:nth-child(2){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+}
+#aboutUs .content  .me  ul a:nth-child(3){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+}
+#aboutUs .content .line{
+    width: 1px;
+    height: 79px;
+    background-color: #fff;
+    float: left;
+    margin-left: 36px;
+}
+#aboutUs .content .article{
+    width: 71px;
+    height: 156px;
+    float: left;
+    margin-left: 42px;
+}
+#aboutUs .content .article a{
+    display: block;
+      color: #ffffff;
+      line-height: 16px;
+  }
+  #aboutUs .content .article a:nth-child(2){
+      font-size: 14px;
+      margin-top: 21px;
+      line-height: 14px;
+  }
+  #aboutUs .content .article a:nth-child(3){
+      font-size: 14px;
+      margin-top: 21px;
+      line-height: 14px;
+  }
+  #aboutUs .content .article a:nth-child(4){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+  }
+  #aboutUs .content .article a:nth-child(5){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+  }
+  #aboutUs .content .line1{
+    width: 1px;
+    height: 79px;
+    background-color: #fff;
+    float: left;
+    margin-left: 36px;
+}
+#aboutUs .content .serve{
+    width: 71px;
+    height: 156px;
+    float: left;
+    margin-left: 42px;
+}
+#aboutUs .content .serve a{
+    display: block;
+      color: #ffffff;
+      line-height: 16px;
+  }
+  #aboutUs .content .serve a:nth-child(2){
+      font-size: 14px;
+      margin-top: 21px;
+      line-height: 14px;
+  }
+  #aboutUs .content .serve a:nth-child(3){
+      font-size: 14px;
+      margin-top: 21px;
+      line-height: 14px;
+  }
+  #aboutUs .content .serve a:nth-child(4){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+  }
+  #aboutUs .content .serve a:nth-child(5){
+    font-size: 14px;
+    margin-top: 21px;
+    line-height: 14px;
+  }
+  #aboutUs .content .line2{
+    width: 1px;
+    height: 79px;
+    background-color: #fff;
+    float: left;
+    margin-left: 36px;
+  
+}
+#aboutUs .content .concern{
+   height: 90px;
+   width: 71px;
+   float: left;
+   margin-left: 36px;
+}
+#aboutUs .content .concern a{
+    display: block;
+      color: #ffffff;
+      line-height: 16px;
+
+  }
+  #aboutUs .content .concern span{
+    margin-left: 14px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  #aboutUs .content .concern img{
+    width: 26px;
+    height: 24px;
+  }
+  #aboutUs .content .concern a:nth-child(2){
+    margin-top: 15px;
+  }
+  #aboutUs .img{
+    width: 84px;
+    height: 84px;
+  float: right;
+  }
+  #footer{
+    height: 161px;
+    background-color: #171717;
+    border-top: 1px solid #6a6a6a;
+  }
+  #footer .content{
+    width: 682px;
+    height: 112px;
+    
+    margin: auto;
+    margin-top: 28px;
+  }
+  #footer .content h6{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 24px;
+    line-height: 18px;
+  }
+    #footer .content ul li{
+        float: left;
+        font-size: 12px;
+        width: 72px;
+        margin-left: 15px;
+        line-height: 26px;
+        color: #fff;
+    }
+    #footer .content .first{
+        margin-left: 0px;
+    }
+    #footer .content p{
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+        line-height: 28px;
+    }
+
+

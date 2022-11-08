@@ -1,0 +1,271 @@
+/* 版心 */
+.container{
+    width: 1180px;
+    margin: auto;
+}
+body{
+    min-width: 1180px;
+}
+/* 头部 */
+#header{
+    height: 50px;
+    background-color: #f0f0f4;
+}
+#header .left{
+    font-size: 12px;
+	color: #999999;
+    float: left;
+    margin-top: 20px;
+}
+#header .right{
+    margin-top: 20px;
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+#header .right img{
+    margin-right: 10px;
+}
+#header .right .im2{
+    margin-left: 18px;
+}
+/* 导航 */
+#nav{
+    height: 140px;
+}
+#nav .logo{
+    margin-top: 46px;
+    float: left;
+}
+#nav ul{
+    margin-left: 270px;
+}
+#nav li{
+    line-height: 140px;
+    margin-right: 40px;
+    float: left;
+}
+#nav li:nth-child(3) a{
+    color: #4586ff;
+}
+#nav li:nth-child(3) img{
+    margin-top: -50px;
+    display: block;
+}
+#nav ul a{
+    font-size: 16px;
+	line-height: 11px;
+	color: #333333;
+}
+#nav div{
+    margin-top: 24px;
+    float: right;
+}
+#nav div a{
+    font-size: 14px;
+	line-height: 11px;
+	color: #666666;
+}
+/* 轮播 */
+#banner{
+    height: 531px;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+/* 故事 */
+#story{
+    height: 3300px;
+    background-color: #eceaeb;
+}
+#story .first img{
+    margin-top: 60px;
+    height: 420px;
+}
+#story  .first h2{
+    margin-top: 26px;
+	font-size: 36px;
+    margin-left: 356px;
+	color: #333333;
+}
+#story  .first div{
+    width: 1100px;
+    height: 22px;
+    font-size: 24px;
+	color: #505050;
+    margin-left: 28px;
+    margin-top: 33px;
+}
+#story .second{
+    width: 1180px;
+	height: 788px;
+    margin-top: 150px;
+}
+#story .second h3{
+    width: 355px;
+	height: 73px;
+	border-radius: 6px;
+	border: solid 1px #4586fe;
+    font-size: 30px;
+	color: #4586fe;
+    text-align: center;
+    margin-left: 414px;
+    line-height: 73px;
+}
+#story .second img{
+    width: 100%;
+    height: 420px;
+    margin-top: 40px;
+}
+#story .second h2{
+	font-size: 36px;
+	color: #333333;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    margin-left: 432px;
+}
+#story .second div{
+    width: 1127px;
+	height: 66px;
+	font-size: 24px;
+	color: #505050;
+    margin-left: 28px;
+}
+#story .last{
+    height: 1750px;
+}
+#story .last h2{
+    width: 355px;
+	height: 73px;
+	border-radius: 6px;
+	border: solid 1px #4586fe;
+    font-size: 30px;
+	color: #fefefe;     
+    text-align: center;
+    margin-left: 414px;
+    line-height: 73px;
+    margin-bottom: 90px;
+    background-color: #4586ff;
+}
+#story .last li{
+    width: 380px;
+	height: 478px;
+	background-color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    float: left;
+}
+#story .last li:nth-child(3n){
+    margin-right: 0px;
+}
+/* 业务 */
+#business{
+    height: 200px;
+    overflow: hidden;
+}
+#business ul{
+    margin-left: 10px;
+}
+#business li{
+    width: 120px;
+    height: 200px;
+    float: left;;
+    text-align: center;
+    margin-left: 95px;
+}
+#business li:nth-child(2){
+    margin-left: 152px;
+}
+#business li:nth-child(3){
+    margin-left: 174px;
+}
+#business li:nth-child(4){
+    margin-left: 174px;
+}
+#business li img{
+    margin-top: 60px;
+}
+#business li a{
+	font-size: 18px;
+    margin-top: 22px;
+	line-height: 11px;
+    display: block;
+	color: #333333;
+}
+/* 关于我们 */
+#aboutUs{
+    height: 335px;
+    background-color: #333333;
+    overflow: hidden;
+    margin-top: 10px;
+}
+#aboutUs .logo{
+    margin-top: 90px;
+    float: left;
+}
+#aboutUs ul{
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+#aboutUs ul:nth-child(2){
+    margin-left: 104px;
+}
+#aboutUs ul:last-child{
+    margin-left: 0;
+}
+#aboutUs ul li{
+    margin-bottom: 20px;
+}
+#aboutUs ul li img{
+    margin-right: 12px;
+}
+#aboutUs ul li:first-child a{
+	font-size: 18px;
+	line-height: 11px;
+	color: #ffffff;
+}
+#aboutUs .container div{
+    width: 1px;
+    height: 80px;
+    background-color: #dddddd;
+    margin-top: 90px;
+    margin-left: 38px;
+    margin-right: 30px;
+    float: left;
+}
+/* 页脚 */
+#footer{
+    height: 158px;
+    border-bottom: 1px solid #6a6a6a;
+    border-top: 1px solid #6a6a6a;
+    background-color: #171717;
+}
+#footer .container div{
+    width: 681px;
+	height: 113px;
+    margin-left: 246px;
+    margin-top: 28px;
+}
+#footer h2{
+	font-size: 18px;
+	line-height: 11px;
+	color: #ffffff;
+}
+#footer a{
+    width: 60px;
+	height: 13px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ffffff;
+    margin-right: 28px;
+}
+#footer .a1{
+    margin-right: 16px;
+}
+#footer p{
+    margin-left: 288px;
+    margin-top: 10px;
+}

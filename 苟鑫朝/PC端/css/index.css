@@ -1,0 +1,409 @@
+body {
+    min-width: 1182px;
+}
+
+/* 头部 */
+#top {
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f4;
+}
+
+#top .daohan {
+    height: 50px;
+    line-height: 50px;
+    background-color: #eeeeee;
+}
+
+#top .daohan>span {
+    font-size: 12px;
+    color: #999999;
+}
+
+#top .daohan .lianxi {
+    width: 260px;
+    height: 50px;
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+
+#top .daohan .lianxi img {
+    margin: 0px 10px 0px 10px;
+}
+
+/* logo */
+#nav {
+    height: 140px;
+    margin: auto;
+}
+
+#nav .logo1 {
+    height: 140px;
+}
+
+#nav .logo1 img {
+    width: 143px;
+    height: 52px;
+    margin: 45px 70px 0px 0px;
+    vertical-align: bottom;
+    float: left;
+}
+
+#nav .logo1 .ul1 {
+    width: 660px;
+    margin-top: 50px;
+    float: left;
+}
+
+#nav .logo1 .ul1 li {
+    height: 30px;
+    line-height: 20px;
+    font-family: PingFang-SC-Regular;
+    font-size: 16px;
+    color: #333333;
+    float: left;
+    margin: 0 15px 0 15px;
+}
+
+#nav .logo1 .ul1 li:nth-child(1) {
+    margin-left: 0px;
+}
+
+#nav .logo1 .ul1 li:nth-child(7) {
+    margin-right: 0px
+}
+
+#logo .logo1 .ul1 li:hover a {
+    border-bottom: 2px solid #8fb6ff;
+}
+
+#nav .logo1 .ul1 li:hover a {
+    color: #8fb6ff;
+}
+
+#nav .logo1 .ul2 {
+    width: 80px;
+    height: 23px;
+    float: right;
+}
+
+#nav .logo1 .ul2 li {
+    height: 20px;
+    line-height: 23px;
+    font-size: 14px;
+    font-family: PingFang-SC-Regular;
+    line-height: 11px;
+    color: #666666;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#nav .logo1 .ul2 li:nth-child(1) {
+    padding-right: 8px;
+    border-right: 1px solid #dddddd;
+}
+
+#nav .logo1 .ul2 li:nth-child(2) {
+    padding-left: 8px;
+    border-left: 1px solid #dddddd;
+}
+
+/* bannner */
+#banner {
+    width: 100%;
+    height: 530px;
+}
+
+#banner img {
+    width: 100%;
+    height: 530px;
+    margin: auto;
+}
+
+/* 内容 */
+#content {
+    height: 3270px;
+    background-color: #eceaea;
+}
+
+#content .lx {
+    height: 716px;
+    padding-top: 64px;
+}
+
+#content .lx img {
+    width: 1182px;
+    height: 422px;
+}
+
+#content .lx h1 {
+    height: 92px;
+    line-height: 92px;
+    font-family: PingFang-SC-Medium;
+    font-size: 36px;
+    text-align: center;
+    color: #333333;
+}
+
+#content .lx p {
+    width: 1103px;
+    height: 109px;
+    line-height: 42px;
+    font-family: PingFang-SC-Regular;
+    font-size: 24px;
+    color: #505050;
+    margin: auto;
+}
+
+#content .gushi1 {
+    width: 1182px;
+    height: 735px;
+    margin: auto;
+}
+
+#content .gushi1 div {
+    padding-top: 22px;
+    width: 355px;
+    height: 51px;
+    line-height: 30px;
+    border-radius: 6px;
+    border: solid 1px #4586fe;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#content .gushi1 div span {
+    height: 29px;
+    font-family: PingFang-SC-Regular;
+    font-size: 30px;
+    color: #4586fe;
+}
+
+#content .gushi1 div img {
+    width: 1182px;
+    height: 421px;
+}
+
+#content .gushi1 h1 {
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+    font-size: 36px;
+    color: #333333;
+}
+
+#content .gushi1 p {
+    width: 1103px;
+    height: 109px;
+    line-height: 42px;
+    font-family: PingFang-SC-Regular;
+    font-size: 24px;
+    color: #505050;
+    margin: auto;
+}
+
+#content .gushi1:hover .lj {
+    background-color: #4586ff;
+}
+
+#content .gushi1:hover span {
+    color: #fefefe;
+}
+
+#content .gushi3 {
+    width: 1182px;
+    height: 1720px;
+    margin: auto;
+}
+
+#content .gushi3 .lj2 {
+    padding-top: 22px;
+    width: 355px;
+    height: 51px;
+    line-height: 30px;
+    border-radius: 6px;
+    border: solid 1px #4586fe;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#content .gushi3:hover .lj2 {
+    background-color: #4586ff;
+}
+
+#content .gushi3:hover span {
+    color: #fefefe;
+}
+
+#content .gushi3 span {
+    height: 29px;
+    font-family: PingFang-SC-Regular;
+    font-size: 30px;
+    color: #4586fe;
+    margin-bottom: 90px;
+}
+
+#content .gushi3 .jgg {
+    width: 1182px;
+    height: 1640px;
+    background-color: #eeeeee;
+}
+
+#content .gushi3 .jgg ul img {
+    width: 380px;
+    height: 480px;
+    margin-bottom: 50px;
+    vertical-align: baseline;
+}
+
+#content .gushi3 .jgg ul li {
+    float: left;
+}
+
+#content .gushi3 .jgg ul li:nth-child(2) img {
+    margin: 0px 20px 0px 20px;
+}
+
+#content .gushi3 .jgg ul li:nth-child(5) img {
+    margin: 0px 20px 0px 20px;
+}
+
+#content .gushi3 .jgg ul li:nth-child(8) img {
+    margin: 0px 20px 0px 20px;
+}
+
+#member {
+    height: 200px;
+}
+
+#member ul {
+    width: 1182px;
+    height: 200px;
+    margin: auto
+}
+
+#member ul li {
+    float: left;
+    margin: 60px 100px 0px 100px;
+}
+
+#member ul li h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* 关于我们 */
+#aboutus {
+    height: 340px;
+    background-color: #333333;
+}
+
+#aboutus .about {
+    width: 1182px;
+    height: 340px;
+    margin: auto;
+}
+
+#aboutus .about:nth-child(1) div {
+    width: 143px;
+    margin: 90px 107px 0px 0px;
+    float: left;
+}
+
+#aboutus .about img {
+    width: 143px;
+    height: 49px;
+    vertical-align: baseline;
+}
+
+#aboutus .about dl {
+    height: 80px;
+    margin-top: 90px;
+    padding: 0px 40px 0px 40px;
+    float: left;
+    border-right: 1px solid #dddddd;
+
+}
+
+#aboutus dl dt {
+    height: 37px;
+    font-family: PingFang-SC-Medium;
+    font-size: 18px;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+#aboutus dl dd {
+    height: 37px;
+    font-family: PingFang-SC-Regular;
+    font-size: 14px;
+    line-height: 37px;
+    color: #ffffff;
+}
+
+#aboutus .about .zl dd img {
+    width: 27px;
+    height: 25px;
+}
+
+#aboutus .erweima {
+    width: 82px;
+    height: 82px;
+    float: left;
+}
+
+#aboutus .erweima img {
+    width: 82px;
+    height: 82px;
+}
+
+/* 页脚 */
+#footer {
+    height: 160px;
+    background-color: #171717;
+}
+
+#footer div {
+    width: 1182px;
+    height: 160px;
+    margin: auto;
+}
+
+#footer .zui {
+    width: 681px;
+    height: 133px;
+    margin: auto;
+    padding-top: 22px;
+}
+
+#footer .zui h2 {
+    height: 42px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+#footer div ul {
+    width: 685px;
+}
+
+#footer div ul li {
+    width: 85px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #ffffff;
+    float: left;
+}#footer div p{
+        height: 36px;
+        font-size: 12px;
+        line-height: 36px;
+        color: #ffffff;
+        text-align: center;
+}

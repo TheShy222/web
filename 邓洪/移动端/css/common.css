@@ -1,0 +1,21 @@
+/* 字体图标 */
+.icon {
+    width: 0.5rem;
+    height: 0.5rem;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* 主体 */
+#main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+}
